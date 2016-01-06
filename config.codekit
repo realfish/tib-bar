@@ -77,6 +77,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -151,7 +160,7 @@
 		"outputAbbreviatedPath": "\/assets\/app.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
@@ -165,7 +174,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/vendor\/normalize.less",
 		"outputAbbreviatedPath": "\/less\/assets\/normalize.css",
@@ -208,7 +217,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/typescript\/app.ts",
 		"jsxMode": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
 		"noImplicitAny": 1,
