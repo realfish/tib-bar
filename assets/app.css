@@ -1,1 +1,54 @@
-@charset "UTF-8";/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}/*! END of normalize.css */body{margin:0;z-index:0;background-color:#f8f8f5}.topbar{position:relative;width:100%;height:10px;z-index:100;background-color:#000}/*! Yellow Bounce */#yellow{position:fixed;top:0;left:70%;width:100px;height:10px;z-index:900;background-color:#fff159;will-change:transform}#yellow.animate{-webkit-animation:yellowBounce .5s cubic-bezier(.64,.16,.84,.45) 1s 4 alternate;animation:yellowBounce .5s cubic-bezier(.64,.16,.84,.45) 1s 4 alternate}@-webkit-keyframes yellowBounce{0%,10%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}100%{-webkit-transform:scale3d(1,3,1);transform:scale3d(1,3,1)}}@keyframes yellowBounce{0%,10%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}100%{-webkit-transform:scale3d(1,3,1);transform:scale3d(1,3,1)}}/*! Yellow Bounce END */
+@charset "UTF-8";
+/**
+ * Depend on Normalize.css and Autoprefixer
+ */
+body {
+  margin: 0;
+  z-index: 0;
+  background-color: #f8f8f5;
+}
+.topbar {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  z-index: 100;
+  background-color: black;
+}
+/*! Yellow Bounce */
+#yellow {
+  position: fixed;
+  top: 0;
+  left: 70%;
+  width: 100px;
+  height: 10px;
+  z-index: 900;
+  background-color: #fff159;
+  will-change: transform;
+}
+#yellow.animate {
+  -webkit-animation: yellowBounce 0.5s cubic-bezier(0.64, 0.16, 0.84, 0.45) 1s 4 alternate;
+          animation: yellowBounce 0.5s cubic-bezier(0.64, 0.16, 0.84, 0.45) 1s 4 alternate;
+}
+@-webkit-keyframes yellowBounce {
+  0%,
+  10% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 3, 1);
+            transform: scale3d(1, 3, 1);
+  }
+}
+@keyframes yellowBounce {
+  0%,
+  10% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 3, 1);
+            transform: scale3d(1, 3, 1);
+  }
+}
+/*! Yellow Bounce END */
