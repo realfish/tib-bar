@@ -1,0 +1,39 @@
+//- - var pageTitl
+//- - var pageDisc
+//- - var pageKeyw
+
+head
+	meta(charset="utf-8")
+
+	title= pageTitl
+	meta(name="title" content=pageTitl)
+	meta(name="description" content=pageDisc)
+	meta(name="keywords" content=pageKeyw)
+
+	-
+		var viewport = "width=device-width," 
+		+ "maximum-scale=1.0,"
+		+ "minimum-scale=1.0"
+	meta(name="viewport" content=viewport)
+
+	meta(name="apple-mobile-web-app-capable" content="yes")
+	meta(name="apple-mobile-web-app-status-bar-style" content="default")
+	meta(name="format-detection" content="telephone=no")
+
+	meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+	
+	link(rel="apple-touch-icon" href="assets/apple-touch-icon.png")
+	link(rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76.png")
+	link(rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120.png")
+	link(rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152.png")
+	link(rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180.png")
+	link(rel="shortcut icon" href="assets/favicon.ico?v=1.0")
+
+	link(rel="stylesheet" href="assets/app.css")
+	
+	//- block headScripts
+		script(type="text/javascript" src="assets/libs.js")
+		script(type='text/javascript').
+			(function(d) {
+				/* do something */
+			})(document);
