@@ -6,6 +6,7 @@ block var
 	- var pageDisc
 	- var pageKeyw
 	- var bodyClass
+	- var verTag
 
 html(lang="en")
 	block head
@@ -21,4 +22,4 @@ html(lang="en")
 			//- include chrome/footer
 		
 		block bodyScripts
-			script(type="text/javascript" src="assets/app.js")
+			script(type="text/javascript" src="assets/app.js?v=#{verTag}")
