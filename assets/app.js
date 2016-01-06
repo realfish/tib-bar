@@ -7,5 +7,5 @@
         setTimeout(function () {
             $yellow.classList.add('animate');
         }, 5);
-    }, 5005);
+    }, 4005);
 })();
